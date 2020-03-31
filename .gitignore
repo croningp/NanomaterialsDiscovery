@@ -8,6 +8,5 @@ data/
 logs/
 manual_data/
 uv_tests/
-info.json
 *.pkl
 *ipynb

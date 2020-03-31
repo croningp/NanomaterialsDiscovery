@@ -1,0 +1,33 @@
+{
+    "generations": 10,
+    "xp_per_gen": 15,
+    "random_seed": 555,
+    "title": "Experiment",
+    "pumps": ["silver", "surfactant", "gold", "reductant"],
+    "vial_volume": 10,
+    "timeout": 20,
+    "algorithm": "single",
+    "GA": {
+        "params": {
+            "pop_size": 15,
+            "part_dim": 4,
+            "pmin": 0,
+            "pmax": 1,
+            "n_survivors": 2,
+            "per_locus_rate": 0.3,
+            "per_locus_SD": 0.1,
+            "temp": 0.1
+        },
+        "static_reagents": {
+            "seeds": 1.0
+        },
+        "varied_reagents": ["silver", "surfactant", "gold", "reductant"]
+    },
+    "single": {
+        "silver": 3.327,
+        "surfactant": 0.479,
+        "gold": 1.813,
+        "reductant": 3.38,
+        "seeds": 1
+    }
+}

@@ -1,0 +1,9 @@
+seabreeze
+pyserial==3.4
+opencv-python
+numpy
+scipy
+deap
+git+https://github.com/croningp/pycont.git
+git+https://github.com/croningp/commanduino.git
+git+https://github.com/jgrizou/filetools.git
