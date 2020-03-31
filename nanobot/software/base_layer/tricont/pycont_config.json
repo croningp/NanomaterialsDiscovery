@@ -1,0 +1,61 @@
+{
+    "io": {
+        "port": "/dev/ttyUSB0",
+        "baudrate": 9600,
+        "timeout": 1
+    },
+    "default": {
+        "volume": 5,
+        "micro_step_mode": 2,
+        "top_velocity": 8000,
+        "initialize_valve_position": "I"
+    },
+    "groups": {
+        "cleaning": ["acid","water"],
+        "spheres": ["gold", "surfactant", "reductant"],
+        "rods": ["gold", "surfactant", "reductant", "silver", "seeds","acid"]
+    },
+    "pumps": {
+        "sample": {
+            "switch": "0",
+            "volume": 12.5,
+            "initialize_valve_position": "1",
+            "top_velocity": 5000
+        },
+        "cleaning": {
+            "switch": "1",
+            "volume": 12.5,
+            "top_velocity": 5000
+        },
+        "regia": {
+            "switch": "2",
+            "top_velocity": 5000
+        },
+        "surfactant": {
+            "switch": "3",
+            "top_velocity": 5000
+        },
+        "reductant": {
+            "switch": "4",
+            "volume": 0.5
+        },
+        "seeds": {
+            "switch": "5",
+            "volume": 1.0
+        },
+        "gold": {
+            "switch": "6"
+        },
+        "silver": {
+            "switch": "7",
+            "volume": 2.5
+        },
+        "probe": {
+            "switch": "8",
+            "volume": 2.5
+        },
+        "random": {
+            "switch": "9"
+        }
+    }
+}

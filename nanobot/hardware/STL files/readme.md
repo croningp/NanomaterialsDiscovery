@@ -1,0 +1,5 @@
+# Notes of these parts:
+
+* These components have been designed for printing on an Objet series Connex 3D printer. This printer is extremely accurate meaning the allowances left between screw housings, part to part contact points etc. are in the order of microns. This means most (if not all) FDM print technology would be insufficient to print these parts as they currently stand. The structural parts (base and column etc) with a sufficient quality FDM printer may work with some manual adjustment after printing. However the drive and drive wheel relations are where the main issues will arise. This problem can be accounted for by the following steps:
+  - Using the following links to [Geneva wheel basics](https://newgottland.com/2012/01/08/make-geneva-wheels-of-any-size/) and a [Genever wheel calculator](http://benbrandt22.github.io/genevaGen/) you may generate new dimensions needed for a fresh design with allowances sufficient for FDM printing.
+  - Using the dimensions for the drive and drive wheel overall sizes provided in the DXF file included in this repo a replacement could be produced.

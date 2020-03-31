@@ -1,0 +1,13 @@
+*.pyc
+.vscode/
+__pycache__/
+*.log
+*.avi
+*.png
+data/
+logs/
+manual_data/
+uv_tests/
+info.json
+*.pkl
+*ipynb

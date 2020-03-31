@@ -1,0 +1,76 @@
+{
+    "ios": [
+        {
+            "port": "/dev/ttyACM0"
+        },
+        {
+            "port": "/dev/ttyACM1"
+        },
+        {
+            "port": "/dev/ttyACM2"
+        }
+    ],
+    "devices": {
+        "wheel": {
+            "command_id": "wheel",
+            "config": {
+                "reverted_switch": true,
+                "reverted_direction": false,
+                "enabled_acceleration": false,
+                "speed": 5000,
+                "homing_speed": 12000,
+                "acceleration": 2000
+            }
+        },
+        "dual_body": {
+            "command_id": "zdsd",
+            "config": {
+                "reverted_switch": true,
+                "reverted_direction": false,
+                "enabled_acceleration": false,
+                "speed": 12000,
+                "max_speed": 12000,
+                "homing_speed": 12000,
+                "acceleration": 2000
+            }
+        },
+        "dual_syringe": {
+            "command_id": "sdsd",
+            "config": {
+                "reverted_switch": true,
+                "reverted_direction": false,
+                "enabled_acceleration": false,
+                "speed": 12000,
+                "max_speed": 12000,
+                "homing_speed": 12000,
+                "acceleration": 2000
+            }
+        },
+        "msd1": {
+            "command_id": "msd1",
+            "config": {
+                "reverted_switch": true,
+                "reverted_direction": false,
+                "enabled_acceleration": false,
+                "speed": 12000,
+                "max_speed": 12000,
+                "homing_speed": 12000,
+                "acceleration": 2000
+            }
+        },
+        "pump2": {
+            "command_id": "pumpE1",
+            "config": {
+                "speed": 50000,
+                "max_speed": 50000,
+                "enabled_acceleration": false
+            }
+        },
+        "ring": {
+            "command_id": "ring"
+        },
+        "laser": {
+            "command_id": "laser"
+        }
+    }
+}
