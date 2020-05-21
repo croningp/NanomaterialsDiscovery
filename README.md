@@ -243,5 +243,6 @@ class CoreDevice(object):
 * Abhishek Sharma
 * Jonathan Grizou
 * Sergio Martin Marti
+* Leroy Cronin
 
 All software and designs were developed as members of the [Cronin Group (University of Glasgow)](http://www.chem.gla.ac.uk/cronin/)
